@@ -1,0 +1,23 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#homeDescription,
+#aboutMeDescription,
+#publishTextForm,
+#accessTextForm {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#publishLink,
+#accessText {
+  font-size: 18px;
+  margin-top: 20px;
+}

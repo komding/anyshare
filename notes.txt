@@ -1,0 +1,8 @@
+the records are not getting deleted for every 2 min. User is able to access the records after 2 min also.
+for permanent saving of records add a premium option.
+
+change the font of txt, it is very bold.
+
+make this site a live text sharing website.
+
+then upgrade the site to any file sharing website.

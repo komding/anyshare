@@ -64,8 +64,10 @@ app.post('/publish', async (req, res) => {
       });
     });
 
-    const accessLink = `http://localhost:${port}/access/${identifier}`;
-    res.send(`Text published successfully. Access link: ${accessLink}`);
+    // const accessLink = `http://localhost:${port}/access/${identifier}`;
+    // res.send(`Text published successfully. Access link: ${accessLink}`);
+    const msg = `Text has been published, go to Access Text and enter unique identifier to copy the shared text.`;
+    res.send(msg);
   } catch (err) {
     res.status(500).send('Error publishing text.');
   }
